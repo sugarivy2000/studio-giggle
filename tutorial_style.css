@@ -1,0 +1,243 @@
+body{
+    margin: auto;
+    width: 80%;
+    color: #2031ad;
+}
+.main{
+    /* margin-left: 80px; */
+    /* border-left: 2px solid #2031ad; */
+    padding: 0px 20px;
+    text-align: justify;
+}
+/* .center {   #need to see where this one fits
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+} */
+#shortcut2 {
+    margin-top: 5px; 
+    margin-bottom: 30px; 
+}
+#sendme {
+    padding: 10px;
+    background-color: #f37121;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    width: 95%;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.nobull, .bull{
+    list-style: none;
+}
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: right;
+    padding: 50px;
+    border-right: 2px solid #2031ad;
+    border-bottom: 2px solid #2031ad;
+    margin-top: 0px;
+    /* border-bottom: 2px solid #2031ad; */
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 35px;
+}
+h3, h4 {
+    text-align: center;
+}
+/* 整體字的大小 */
+p, table, ul, ol, h3{
+    font-size: 1.5rem;
+}
+.shortcut {
+    width: 90%;
+    margin: 25px auto;
+    border-top: 2px dashed #1b6ca8;
+}
+.shortcut {
+    border-bottom: 2px dashed #1b6ca8;
+}
+.shortcut {
+    font-size: 18px;
+    color: #888888;
+    padding: 10px;
+}
+/* keyword and arguement */
+/* .key {
+    font-style: italic;
+    color:
+}
+.arr {
+    font-style: italic;
+    color:
+} */
+
+code {
+    color: #566573;
+}
+
+.example {
+    color: red;
+    font-size: 23px;
+}
+table, #docs {
+    width: 90%;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid #2031ad;
+    padding: 30px;
+    border-collapse: collapse;
+    overflow: auto;
+}
+#docs tr:nth-child(even){
+    background-color: #D9F5F2;
+}
+/* #docs tr:hover {
+    background-color: #fbd46d;
+} */
+#docs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f37121;
+    color: white;
+}
+th {
+    background-color: #f37121;
+    color: white;
+}
+td a{
+    text-decoration: none;
+}
+tr td {
+    border-spacing: 5px;
+    text-align: left;
+}
+tr th {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.script{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 30px 100px;
+    padding: 20px;
+    /* color: #eb5f43; */
+    border-left: 10px solid #3096f3;
+    background-color: #dcfdfd;
+    border-radius: 5px 0px 0px 5px;
+}
+#scripttitle{
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: yellow;
+    padding: 5px;
+}
+.script p {
+    margin-top: -5px;
+}
+.listindent {
+    margin-left: 30px;
+}
+em{
+    color: #F39C12;
+}
+.explain{
+    color: #535853;
+    font-style: italic;
+    /* font-size: 1.5em; */
+}
+.point{
+    font-weight: bolder;
+}
+hr{
+    border-style: dashed none none;
+    border-color: #2031ad;
+    border-width: 2px;
+    width: 60%;
+    margin-top: 60px;
+}
+.ref{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* postman */
+.interface_bullet {
+    list-style-type: none;
+}
+
+/* ================ Contact Area ================*/
+#message{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 50px 300px;
+    width: 55%;
+    padding: 20px;
+}
+.name{
+    font-size: 1.5em;
+}
+.word{
+    font-size: 1.45em;
+    color: #FFFFFF;
+}
+.holder, #word{
+    margin: 15px 12px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #3DA2E5;
+    font-size: 1.2em;
+    color: #E0E3E5;
+}
+.holder{
+        height: 20px;
+}#send{
+    margin: 15px 0px 5px 210px;
+    font-size: 1.2em;
+    color: #2031ad;
+    font-weight: bolder;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+/* ====== new contact ======== */
+.biz01 {
+    position: relative;
+    float: left;
+    left: 250px;
+    top: 50px;
+}
+.biz02 {
+    position: relative;
+    float: right;
+    right: 160px;
+    top: 50px;
+}
+#contactarea {
+    overflow: auto;
+}
+#contactbottom {
+    position: absolute;
+    bottom: 0;
+    right: 130px;
+}
+li {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Postman 教學</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="website" class="rotate">Ying Portfolio</h1>
+        </header>
+        <div class="wrapper">
+            <div class="main">
+                <ul class="nobull">
+                    <li id="top">Postman 教學：</li>
+                        <ul class="bull">
+                            <li>A. <a href="#usage">Postman 工具介紹</a></li>
+                            <li>B. <a href="#installation">Postman 安裝</a></li>
+                            <li>C. <a href="#interface">Postman 介面介紹</a></li>
+                            <li>D. <a href="#api">什麼是 API</a></li>
+                            <li>E. <a href="#request">API 請求</a></li>
+                                <ul>
+                                    <li><a href="#GET">GET 請求</a></li>
+                                    <li><a href="#POST">POST 請求</a></li>
+                                    <li><a href="#PUT">PUT 請求</a></li>
+                                    <li><a href="#PATCH">PATCH 請求</a></li>
+                                    <li><a href="#DELETE">DELETE 請求</a></li>
+                                </ul>
+
+
+                            <li>E. <a href="offdoc.html">Robot Framework 官方文件解析</a></li>
+                        </ul>
+                </ul>
+                <hr>
+                <h2 id="usage">Postman 工具介紹</h2>
+                <p>
+                    Postman 是一個可以讓我們測試 HTTP 各個請求的工具。藉由 API 不同請求方式測試請求資料結果是否如我們預期。HTTP 測試結果的回應方式會藉由 HTTP 的代碼反應測試結果。若要知道更多詳細的 HTTP 返回狀態碼定義，請參考 <a href="knowhow.html#httpstatus">HTTP 返回狀態碼</a>。
+                </p>
+                <h2 id="installation">Postman 安裝</h2>
+                <p>
+                    到 <a href="https://www.postman.com/downloads/">Postman </a> 網站下載並安裝。Postman 安裝有兩個版本，一個是 app 另一個則是網頁版本。如果使用 postman 測試 API 是每天都需要做的事情，可以註冊一個帳號方便紀錄使用過後並且可再次執行的 API，方便之後可再次使用。
+                </p>
+                <img src="img/01_postman.png" alt="postman_methods" width="400px">
+                <h2 id="interface">Postman 介面介紹</h2>
+                <img src="img/03_postman_interface.png" alt="postman_interface">
+                <ul class="interface_bullet">
+                    <li>1. API 資料請求方法</li>
+                        <p>API 資料請求有四大類別分別是新增 (POST) / 取得 (GET) / 更新 (PUT) / 刪除 (DELETE)。若要知道更多詳細的 HTTP 發送方法定義，請參考 <a href="knowhow.html#httpmethod">HTTP 發送方法</a>。</p>
+                        <img src="img/02_postman_methods.png" alt="postman_methods">
+                            <h4 id="GET">GET 請求</h4>
+                            <p>
+                                
+                            </p>
+                            <h4 id="POST">POST 請求</h4>
+                            <p>
+                                
+                            </p>
+                            <h4 id="PUT">PUT 請求</h4>
+                            <p>
+                                
+                            </p>
+                            <h4 id="DELETE">DELETE 請求</h4>
+                            <p>
+                                
+                            </p>
+                    <li>2. API 資料處理的網址： 這裡輸入所要處理的 API 資源網址。
+                        <br>例如：https://jsonplaceholder.typicode.com/todos/1。
+                    </li>
+                    <li>3. 請求網址參數細節設定： 這裡包含了網址參數設定，驗證碼設定，Header 資料設定和 Body 資料設定。 </li>
+                        <ul>
+                            <li>Params (參數): postman 參數設定有兩種，一個是 query params (搜尋參數), 一個是 path variable (搜尋變數)。Postman 開啟時，都只有 query params 可以設定。要讓搜尋變數現身只有在網址輸入 "：{變數名字}" 才可以開啟搜尋變數設定。
+                            </br>例如： https://jsonplaceholder.typicode.com/todos/1/<em>:new_member</em> </li>
+                            <img src="img/04_postman_path_variable.png" alt="postman_path_variable">
+                            <li>Authorization (身份驗證): 如果請求的 API 權限是需要身份驗證才可以請求資料的話，這邊就需要輸入身份驗證的資料。</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    <li>4. 回傳請求資料結果顯示區塊以及回傳HTTP 返回狀態碼顯示。</li>
+                </ul>
+                <h2 id="api">什麼是 API</h2>
+                <p>
+                    API 是應用程式介面。開發者可以透過 API 把不同的服務串接在一起。例如：我所開發的軟體想要與臉書的服務結合，我可以串接臉書的 API 與我的軟體做一個整合。藉由這樣的互利互惠的操作，可以大幅減少重複開發同樣服務的時間進而增加開發者的生產力。
+                </p>
+                <h2 id="request">API 請求</h2>
+                
+                <h2 id="request">Postman 參數區塊說明</h2>
+                <p>Postman 參數區塊</p>
+                    
+            </div>
+        </div>
+
+        <div class="mobilebottom">
+            <a href="#top" id="goup"><i class="fas fa-chevron-circle-up" style="font-size:24px;color:#F2CB2D"></i></a>
+            <a href="contact.html" id="contact"><i class="fa fa-envelope" style="font-size:24px;color:#58DDF8"></i></a>
+            <a href="https://liker.land/wrpyplcom/civic" id="donate"><i class="fas fa-donate" style="font-size:24px;color:#FF5733"></i></a>
+            
+            <a href="knowhow.html" id="knowhow"><i class="fas fa-chalkboard-teacher" style="font-size:24px;color:#803BBB"></i></a>
+
+            <a href="index.html" id="home"><i class="fas fa-home" style="font-size:24px;color:red"></i></a>
+        </div>   
+    </body>
+</html>

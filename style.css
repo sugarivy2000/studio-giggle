@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: #050505;
+	color: #F9FDFC;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rock Salt', cursive;
+}
+h1#website{
+	font-size: 60px;
+	color: 	#663399;
+	margin: 15px 50px;
+	text-decoration: underline;
+}
+.rotate{
+	position: absolute;
+	top: 30px;
+	transform: rotate(-10deg)
+}
+
+h3, p{
+	font-family: 'Advent Pro', sans-serif;
+}
+p#self{
+	font-size: 60px;
+	font-weight: bolder;
+	text-align: justify;
+	margin: 160px 160px 0px 0px;
+	padding: 80px 100px 50px 50px;
+	/* border: 3px solid red; */
+}
+p#quote{
+	text-align: right;
+	padding: 15px 260px 50px 50px;
+	font-style: italic;
+	/* border: 3px solid red; */
+}
+
+
+/* navigation button  */
+aside{
+	margin-top: 50px;
+	width: 200px;
+	float: right;
+	color: #050505;
+	border-left: 2px solid #581845;
+}
+button{
+	align-items: right;
+	border-radius: 5px;
+	border: none;
+	margin: 5px;
+	padding: 5px;
+	width: 150px;
+}
+#btn01, #btn04, #btn07{
+	background-color: #FBB03B;
+}
+#btn02, #btn05 {
+	background-color: #036FBC;
+}
+#btn03, #btn06, #btn08{
+	background-color: #E82351;
+}
